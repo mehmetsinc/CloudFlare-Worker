@@ -5,8 +5,8 @@
 // and our blogPath (the subdirectory we want it at)
 // Change these to suit your case!
 const config = {
-	subdomain: "blog.emaillistvalidation.com",
-	root: "emaillistvalidation.com",
+	subdomain: "blog.YOUR-DOMAİN-HERE.com",
+	root: "YOUR-DOMAİN-HERE.com",
 	blogPath: "blog",
   }
 

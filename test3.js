@@ -14,8 +14,8 @@ async function fetchAndApply(request) {
 
   //  This is to set-up any default protocol or host to minimize multiple redirects
   //  You can switch to using requested protocol (2nd option) if needed for dynamic environments
-      var site = "https://emaillistvalidation.com/blog/";
-      var siteto = "https://blog.emaillistvalidation.com/blog/";
+      var site = "https://YOUR-DOMAİN-HERE.com/blog/";
+      var siteto = "https://blog.YOUR-DOMAİN-HERE.com/blog/";
     //  var site = url.protocol + "//" + url.host;
   //  console.log('Site', site)
 

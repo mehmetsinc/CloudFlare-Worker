@@ -7,8 +7,8 @@ addEventListener('fetch', function(event) {
   
 	const url = new URL(request.url);
 	const originUrl = url.toString().replace(
-	  'https://emaillistvalidation.com/blog/*',
-	  'https://blog.emaillistvalidation.com/blog/*'
+	  'https://YOUR-DOMAİN-HERE.com/blog/*',
+	  'https://blog.YOUR-DOMAİN-HERE.com/blog/*'
 	);
 	const originPage = await fetch(originUrl);
 	const newResponse = new Response(originPage.body, originPage);
